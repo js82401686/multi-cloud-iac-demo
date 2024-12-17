@@ -1,0 +1,30 @@
+# Terraform directories and state files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+terraform.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# Sensitive files
+gcp-terraform-key.json
+*.key.json
+
+# Local logs, crash files, and CLI history
+crash.log
+*.log
+*.tmp
+.terraform.lock.hcl
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.swp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
